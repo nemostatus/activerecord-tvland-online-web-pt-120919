@@ -5,5 +5,5 @@ class Show < ActiveRecord::Base
 end 
 
 def actors_list
-self.actors
+return self.actors
 end 
