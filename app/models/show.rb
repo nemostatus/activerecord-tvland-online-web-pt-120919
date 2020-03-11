@@ -6,5 +6,4 @@ end
 
 def actors_list
 
-  self.actors
 end 
