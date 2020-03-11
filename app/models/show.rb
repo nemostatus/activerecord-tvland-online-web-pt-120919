@@ -5,6 +5,6 @@ class Show < ActiveRecord::Base
 
 
 def actors_list
- self.actors.name
+ self.actors.find(:name)
 end
 end
