@@ -5,6 +5,6 @@ class Show < ActiveRecord::Base
 
 
 def actors_list
- self.actors
+ self.actors.full_name
 end
 end
